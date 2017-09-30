@@ -1,0 +1,32 @@
+fun main (args: Array <String> )
+{
+    print( " Welcome \n ") // \n or println
+
+    // VARIABLE
+    var name = "Lana" // var accepting overwite
+    println(name)
+    name = "Alzeibak "
+    println (name)
+
+    // var or val --> val not accepting overwite
+    val age = 20
+    println(age)
+
+    var avg:Double?
+    avg = null
+    avg = 3.5
+    println(avg)
+
+    var dev : String ?= null // to avoid errors before give it value
+    dev = "Computer engeenring "
+    println(dev)
+
+    // NULL SAFETY
+
+    var l: String?=null
+    println(l)
+    println(l !!) // !! to stop  the program if its null
+
+
+
+}

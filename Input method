@@ -1,0 +1,20 @@
+fun main (args: Array <String> )
+{
+    // Input
+    println("Enter Name :")
+    var name : String = readLine()!! // readLine ALWAYS String.. !! for avoiding null
+    println(name)
+
+    println("Enter Your full Name :")
+    var My_Name = readLine()!! // just for string
+    println(My_Name)
+
+    println("Enter Age:")
+    var age: Int = readLine()!!.toInt()
+    println(age)
+
+    println("Enter avg :")
+    var avg: Double = readLine()!!.toDouble()
+    println(avg)
+
+}
